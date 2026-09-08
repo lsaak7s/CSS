@@ -1,0 +1,26 @@
+* {
+    background-color: rgb(42, 84, 70);
+
+}
+
+.conteiner {
+    width: 200px;
+    height: 800px;
+    margin: 10px;
+    border: 10px solid salmon;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: end;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border: 5px solid black;
+    text-align: center;
+    margin: 10px;
+}
