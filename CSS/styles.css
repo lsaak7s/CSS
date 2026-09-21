@@ -4,64 +4,73 @@
 }
 
 .conteiner {
-    width: 1630px;
-    height: 890px;
+
+    height: 100vh;
     margin: 10px;
     border: 10px solid salmon;
-
-
     display: grid;
-    flex-flow: row;
-    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+
+
 
 }
 
 .Grid1 {
     background-color: bisque;
     border: 5px solid black;
+    font-size: 40px;
 }
 
 .Grid2 {
     background-color: rgb(214, 255, 196);
     border: 5px solid black;
- 
-    
+    font-size: 40px;
+
 }
 
 .Grid3 {
     background-color: rgb(255, 202, 196);
     border: 5px solid black;
-    
+    font-size: 40px;
 }
 
 .Grid4 {
     background-color: rgb(255, 196, 230);
     border: 5px solid black;
-   
+    font-size: 40px;
 }
 
 .Grid5 {
     background-color: rgb(196, 203, 255);
     border: 5px solid black;
+    font-size: 40px;
 }
 
 .Grid6 {
     background-color: rgb(196, 255, 235);
     border: 5px solid black;
- 
-    
+    font-size: 40px;
+
 }
 
 .Grid7 {
     background-color: rgb(255, 196, 196);
     border: 5px solid black;
-    
+    font-size: 40px;
 }
 
 .Grid8 {
     background-color: rgb(232, 196, 255);
     border: 5px solid black;
-   
+    font-size: 40px;
+}
+
+.Grid9 {
+    background-color: rgb(196, 255, 219);
+    border: 5px solid black;
+    font-size: 40px;
 }
 
 /*
@@ -73,6 +82,7 @@
     text-align: center;
     margin: 10px;
     order: 1;
+     font-size: 40px;
 }
 
 .Flex2 {
@@ -82,6 +92,7 @@
     text-align: center;
     margin: 10px;
     order: 2;
+     font-size: 40px;
 }
 
 .Flex3 {
@@ -92,6 +103,7 @@
     text-align: center;
     margin: 10px;
     order: 3;
+     font-size: 40px;
     
 }
 
@@ -102,6 +114,7 @@
     text-align: center;
     margin: 10px;
     order: 4;
+     font-size: 40px;
 }
 
 .Flex5 {
@@ -111,4 +124,5 @@
     text-align: center;
     margin: 10px;
     order: 4;
+     font-size: 40px;
 }*/
