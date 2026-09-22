@@ -4,7 +4,7 @@
 }
 
 .conteiner {
-    min-height: 90vh;
+    min-height: 94vh;
     margin: 10px;
     border: 10px solid salmon;
     display: grid;
@@ -13,7 +13,8 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, auto));*/
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr 1fr ;
-    grid-gap:10px 20px;
+    grid-gap:10px;
+   
 
 
 }
