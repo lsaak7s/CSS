@@ -8,22 +8,126 @@
     margin: 10px;
     border: 10px solid salmon;
     display: grid;
+
     /*grid-template-columns: repeat(3, 1fr);
     grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(100px, auto));*/
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 5fr 1fr;
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
     grid-gap: 5px;
-    grid-template-areas:
+
+    justify-content: center;
+    align-content: center;
+
+
+
+
+    /*grid-template-areas:
         "header header header"
         "nav main aside"
         "footer footer footer"
-    ;
+    ;*/
+}
+
+
+.Alin1 {
+    background-color: bisque;
+    border: 5px solid black;
+    font-size: 40px;
 
 
 
 }
 
+.Alin2 {
+    background-color: rgb(214, 255, 196);
+    border: 5px solid black;
+    font-size: 40px;
+
+
+}
+
+.Alin3 {
+    background-color: rgb(255, 202, 196);
+    border: 5px solid black;
+    font-size: 40px;
+
+
+}
+
+.Alin4 {
+    background-color: rgb(255, 196, 230);
+    border: 5px solid black;
+    font-size: 40px;
+
+
+}
+
+.Alin5 {
+    background-color: rgb(196, 203, 255);
+    border: 5px solid black;
+    font-size: 40px;
+
+
+
+}
+
+.Alin6 {
+    background-color: rgb(196, 255, 235);
+    border: 5px solid black;
+    font-size: 40px;
+
+}
+
+.Alin7 {
+    background-color: rgb(255, 196, 196);
+    border: 5px solid black;
+    font-size: 40px;
+}
+
+.Alin8 {
+    background-color: rgb(232, 196, 255);
+    border: 5px solid black;
+    font-size: 40px;
+}
+
+.Alin9 {
+    background-color: rgb(196, 255, 219);
+    border: 5px solid black;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .Grid1 {
     background-color: bisque;
     border: 5px solid black;
@@ -38,7 +142,6 @@
     border: 5px solid black;
     font-size: 40px;
     grid-area: aside;
-
 
 }
 
@@ -91,7 +194,7 @@
     border: 5px solid black;
     font-size: 40px;
 }
-
+*/
 /*
 .Flex1 {
 
